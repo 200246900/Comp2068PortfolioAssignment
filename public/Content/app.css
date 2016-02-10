@@ -97,11 +97,11 @@ a {
     border-width: 1px;
 }
 
-/*Slides*/
-#slide1, #slide2{ 
+/* [--------------------------------------------------] Slides [--------------------------------------------------]*/
+#top, #about{ 
     width: 100%;
 }
-#slide1{
+#top{
 	background:url('slide1.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
 	height: 1000px;
@@ -110,7 +110,7 @@ a {
 	background-size: cover;
 }
 
-#slide2{
+#about{
     background:url('profile.jpg') 50% 0 no-repeat fixed;
 	background-color: #fff;
 	color: #333333;
@@ -120,7 +120,7 @@ a {
 	padding: 200px 0;
 }
 
-#slide3{
+#services{
 	background: url('slide3.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
 	height: 1000px;
@@ -128,24 +128,24 @@ a {
 	background-size: cover;
 }
 
-#slide4{
+#projects{
     background:url('slide4.jpg') 50% 0 no-repeat fixed;
 	background-color: #fff;
 	color: #333333;
 	height: 1000px;
-	padding: 200px 0;
+	padding: 200px 0;  
 }
 
 /*Slide5*/
-#slide5{
+#social{
 	background: url('slide5.jpg') 50% 0 no-repeat fixed;
-	height: 400px;
+	height: 150px;
 	margin: 0 auto;
 	padding: 250px 0;
 	color: #fff;
 	background-size: cover;
 }
-/*SocialButtons*/
+/* [------------------------------] SocialButtons [------------------------------]*/
 #facebookButton{
 	background:url('facebook.png') 0 no-repeat;
     height: 150px;
@@ -225,6 +225,5 @@ a {
     opacity: 0;                 /* Fix to make div clickable in IE */
     filter: alpha(opacity=1);   /* Fix to make div clickable in IE */
 }
-/*EndOfSocialButtons*/
-/*EndOfSlide5*/
-/*EndOfSlides*/
+/* [------------------------------] SocialButtons [------------------------------]*/
+/* [--------------------------------------------------] EndOfSlides [--------------------------------------------------]*/
