@@ -1,3 +1,12 @@
+/*
+//File Name   : Assignment1Part2\public\Content\app.css
+//Author Name : Tyler Cadeau
+//Student Num : 200246900
+//Website	  : https://comp2068-portfolioassignment.herokuapp.com/
+//Description : This is the main CSS file which gives my website more styling
+*/
+
+
 body{
 	margin: 0;
 	padding: 0;
@@ -21,7 +30,7 @@ a {
 
 
 #nav { 
-    width: 410px; 
+    width: 420px; 
     float: right; 
     margin-top: 20px;
 }
@@ -33,7 +42,7 @@ a {
     font-size: 30px; 
     margin-top: 20px; 
     color: #000000; 
-    font-family:"Wellfleet"; 
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
     font-weight: bold;
     margin-left: 5%; 
 }
@@ -55,7 +64,7 @@ a {
     opacity:0.6; 
     font-size: 16px; 
     text-decoration: none; 
-    font-family: 'Wellfleet'; 
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
     font-weight: bold;
 }
 #nav li a.active { 
@@ -78,7 +87,12 @@ a {
 }
 
 #slide-content{
+}
 
+#slide-content-services{
+	background: url('header.png'); 
+    border-radius: 1px;
+    margin-right: 5%;
 }
 
 #contact{
@@ -103,7 +117,7 @@ a {
 }
 #top{
 	background:url('slide1.jpg') 50% 0 no-repeat fixed;
-	color: #fff;
+	color: #000000;
 	height: 1000px;
 	margin: 0;
 	padding: 200px 0 260px 0;
@@ -139,91 +153,11 @@ a {
 /*Slide5*/
 #social{
 	background: url('slide5.jpg') 50% 0 no-repeat fixed;
-	height: 150px;
+	height: 100px;
 	margin: 0 auto;
-	padding: 250px 0;
+	padding: 20px 0;
 	color: #fff;
 	background-size: cover;
 }
-/* [------------------------------] SocialButtons [------------------------------]*/
-#facebookButton{
-	background:url('facebook.png') 0 no-repeat;
-    height: 150px;
-    position: relative;
-}
- 
-#facebookButton a {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    /* Make entire div clickable but pretty */
-    text-decoration: none;      /* No underlines on the link */
-    z-index: 10;                /* Places the link above everything else in the div */
-    background-color: #FFF;   /* Fix to make div clickable in IE */
-    opacity: 0;                 /* Fix to make div clickable in IE */
-    filter: alpha(opacity=1);   /* Fix to make div clickable in IE */
-}
 
-#twitterButton{
-	background:url('twitter.png') 0 no-repeat;
-    height: 150px;
-    position: relative;
-}
- 
-#twitterButton a {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    /* Make entire div clickable but pretty */
-    text-decoration: none;      /* No underlines on the link */
-    z-index: 10;                /* Places the link above everything else in the div */
-    background-color: #FFF;   /* Fix to make div clickable in IE */
-    opacity: 0;                 /* Fix to make div clickable in IE */
-    filter: alpha(opacity=1);   /* Fix to make div clickable in IE */
-}
-
-#linkedinButton{
-	background:url('linkedin.png') 0 no-repeat;
-    height: 150px;
-    position: relative;
-}
- 
-#linkedinButton a {
-    position: absolute;
-    width: 100%;
-    height: 100%;;
-    top: 0;
-    left: 0;
-    /* Make entire div clickable but pretty */
-    text-decoration: none;      /* No underlines on the link */
-    z-index: 10;                /* Places the link above everything else in the div */
-    background-color: #FFF;   /* Fix to make div clickable in IE */
-    opacity: 0;                 /* Fix to make div clickable in IE */
-    filter: alpha(opacity=1);   /* Fix to make div clickable in IE */
-}
-
-#googleplusButton{
-	background:url('googleplus.png') 0 no-repeat;
-    height: 150px;
-    position: relative;
-}
- 
-#googleplusButton a {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    /* Make entire div clickable but pretty */
-    text-decoration: none;      /* No underlines on the link */
-    z-index: 10;                /* Places the link above everything else in the div */
-    background-color: #FFF;   /* Fix to make div clickable in IE */
-    opacity: 0;                 /* Fix to make div clickable in IE */
-    filter: alpha(opacity=1);   /* Fix to make div clickable in IE */
-}
-/* [------------------------------] SocialButtons [------------------------------]*/
 /* [--------------------------------------------------] EndOfSlides [--------------------------------------------------]*/
