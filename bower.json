@@ -1,12 +1,12 @@
 {
-  "name": "comp2068lab3",
+  "name": "Portfolio Asssignment",
   "description": "",
   "main": "",
   "authors": [
     "200246900 <200246900@student.georgianc.on.ca>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/200246900/comp2068lab3",
+  "homepage": "https://comp2068-portfolioassignment.herokuapp.com/",
   "moduleType": [],
   "ignore": [
     "**/.*",
